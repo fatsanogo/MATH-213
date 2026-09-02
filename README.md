@@ -1,4 +1,4 @@
-# nudgeStatLabs
+# Math 213
 ## learnr labs for intro stat
 These labs were originally adapted from labs for Open Intro ISRS by [Dr. Sara Stoudt](https://sastoudt.github.io/). 
 This repo was forked from her [original one](https://github.com/sastoudt/nudgeStatLabs). Minor implementation edits for Fall 2021 by Kinnaird and Fatou Sanogo Spring 2022 and Fall 2026.
