@@ -1,11 +1,9 @@
 # nudgeStatLabs
 ## learnr labs for intro stat
 These labs were originally adapted from labs for Open Intro ISRS by [Dr. Sara Stoudt](https://sastoudt.github.io/). 
-This repo was forked from her [original one](https://github.com/sastoudt/nudgeStatLabs). Minor implementation edits for Fall 2021 by Kinnaird.
+This repo was forked from her [original one](https://github.com/sastoudt/nudgeStatLabs). Minor implementation edits for Fall 2021 by Kinnaird and Fatou Sanogo Spring 2022 and Fall 2026.
 
 **For instructors:** an overview of how Dr. Stoudt used this set of learnr labs in an intro stats class can be found [here](https://sastoudt.github.io/posts/2021-06-05-learnr-tutorials-intro-stat/).
-
-Note for Smith Students: For now, only do this on your own personal RStudio, not on the Smith server. If you only have access to the server, let me know, and we will use a work around.
 
 ### To install this package:
 
@@ -80,13 +78,13 @@ Click "Session" --> "Restart R" and try to run the tutorial again.
 
 ## Lab Instructions
 
-There will be a pre-lab and a lab report for each lab. The pre-lab will be completed **individually** and graded for completion. This is **due by 9am on Thursdays**. Then during lab you will work in a team of three to complete a lab report. If you finish early you can use the time to work on other assignments for the course. Pre-lab is submitted as a Google Form (see below). Lab report submitted to Moodle as LastName-LastName-LastName-L-LabNumber.Rmd and LastName-LastName-L-LabNumber.html The lab report is **due on the Friday following the lab**.
+There will be a pre-lab and a lab report for each lab. The pre-lab will be completed **individually** and graded for completion. This is **due by 9am** on the day the lab class time. Then during lab you will work in a team of three to complete a lab report. If you finish early you can use the time to work on other assignments for the course. Pre-lab is submitted as a Google Form (see below). Lab report submitted to Lyceum as LastName-L-LabNumber.Rmd and LastName-L-LabNumber.html The lab report is **due** at the end of class time.
 
 #### Troubleshooting
 
 I can't see the Google Form at the end. 
 
-Open in the browser (this should happen automatically if you use `run_tutorial` ), use Google Chrome, and make sure you are logged in to your Smith e-mail in the same browser (only Smith authenticated accounts can access the form to avoid any spam).
+Open in the browser (this should happen automatically if you use `run_tutorial` ), use Google Chrome, and make sure you are logged in to your Bates e-mail in the same browser (only Bates authenticated accounts can access the form to avoid any spam).
 
 **Run into any problems not listed above? Let me know and when we figure it out we'll add to the list.**
 
