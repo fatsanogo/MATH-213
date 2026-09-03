@@ -231,7 +231,7 @@ table(yrbss$physical_3plus)
 
 ```{r inf-weight-habit-ht-null, exercise = TRUE}
 yrbss <- yrbss %>% 
-  mutate(physical_3plus = ifelse(yrbss$physically_active_7d > 2, "yes", "no"))
+  mutate(physical_3plus = ifelse(physically_active_7d > 2, "yes", "no"))
 
 null_dist <- yrbss %>%
   filter(!is.na(physical_3plus)) %>%
@@ -255,6 +255,7 @@ yrbss <- yrbss %>%
   mutate(physical_3plus = ifelse(yrbss$physically_active_7d > 2, "yes", "no"))
 
 null_dist <- yrbss %>%
+  filter(!is.na(physical_3plus)) %>%
   specify(weight ~ physical_3plus) %>%
   hypothesize(null = "independence") %>%
   generate(reps = 1000, type = "permute") %>%
@@ -315,12 +316,14 @@ yrbss <- yrbss %>%
   mutate(physical_3plus = ifelse(yrbss$physically_active_7d > 2, "yes", "no"))
 
 null_dist <- yrbss %>%
+  filter(!is.na(physical_3plus)) %>%
   specify(weight ~ physical_3plus) %>%
   hypothesize(null = "independence") %>%
   generate(reps = 1000, type = "permute") %>%
   calculate(stat = "diff in means", order = c("yes", "no"))
 
 obs_diff <- yrbss %>%
+  filter(!is.na(physical_3plus)) %>%
   specify(weight ~ physical_3plus) %>%
   calculate(stat = "diff in means", order = c("yes", "no"))
 ```
