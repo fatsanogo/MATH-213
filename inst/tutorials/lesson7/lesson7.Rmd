@@ -133,6 +133,7 @@ set.seed(1311213)
 
 ```{r nohelmet-text-ci, exercise = TRUE}
 no_helmet %>%
+  filter(!is.na(text_ind)) %>%
   specify(response = text_ind, success = "yes") %>%
   generate(reps = 1000, type = "bootstrap") %>%
   calculate(stat = "prop") %>%
