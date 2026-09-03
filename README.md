@@ -71,9 +71,7 @@ Click "Session" --> "Restart R" and try to run the tutorial again.
 - "lesson6": Inference for numerical data
 - "lesson7": Inference for categorical data
 - "lesson8": Introduction to linear regression
-- "lesson9": Multiple linear regression
-- "lesson10": The normal distribution
-- "lesson11": When the bootstrap fails
+- "lesson9": The normal distribution
 - "roadless_collect": Collect data for [Roadless America](https://www.amstat.org/asa/files/pdfs/stew/PercentWithinMileofRoad.pdf) activity
 
 ## Lab Instructions
