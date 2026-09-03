@@ -432,7 +432,7 @@ learnrhash::iframe_ui(
 
 This lab will occur in groups of three. 
 
-Each of you should be writing and running code, examining output, and answering the exercises throughout the lab. However, you only need to turn in one final lab report. To be clear, everyone submits files to Moodle, but the files can be the same within a group. Today one of you should be the main recorder of answers in the lab document. You will share this document with your teammates. Be sure to switch roles from last week so that someone else is the main recorder. 
+Each of you should be writing and running code, examining output, and answering the exercises throughout the lab. However, you only need to turn in one final lab report. To be clear, everyone submits files to Lyceum, but the files can be the same within a group. Today one of you should be the main recorder of answers in the lab document. You will share this document with your teammates. Be sure to switch roles from last week so that someone else is the main recorder. 
 
   
 ## Creating a reproducible lab report
