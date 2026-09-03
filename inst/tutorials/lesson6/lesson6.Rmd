@@ -54,7 +54,6 @@ Load the `yrbss` data set into your workspace and remove any rows with missing v
 
 ```{r load-data, exercise = T}
 data(yrbss)
-yrbss <- na.omit(yrbss)
 ```
 
 There are observations on 13 different variables, some categorical and some 
