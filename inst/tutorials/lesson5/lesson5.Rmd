@@ -448,14 +448,11 @@ question("Do you have evidence that the hot hand model fits Kobe's
 
 ```{r encode, echo=FALSE}
 learnrhash::iframe_ui(
-    src = "https://docs.google.com/forms/d/e/1FAIpQLSc8oEW18VdLhacNl_IiLTKIYpbFvfUqjDEv4DkiXHLr3Ll1mw/viewform", ## change link, include name
+    src = "https://docs.google.com/forms/d/e/1FAIpQLScUGr9esSN3BIbJwolY-VySGQABW622NUQKOca8qJVIbAsIKg/viewform?usp=dialog", ## change link, include name
     width="900px", height= "1000px"
 )
 ```
 
-## Questions for Lab Report
-
-Instead of a lab report this week, post to #lab5 channel on slack what your favorite thing that we've done in R so far. Emoji fellow statistician's posts that resonate with you. 
 
 
 * * *
