@@ -50,10 +50,11 @@ schoolers (9th through 12th grade), to analyze health patterns. You will work
 with a selected group of variables from a random sample of observations during 
 one of the years the YRBSS was conducted.
 
-Load the `yrbss` data set into your workspace.
+Load the `yrbss` data set into your workspace and remove any rows with missing values.
 
 ```{r load-data, exercise = T}
 data(yrbss)
+yrbss <- na.omit(yrbss)
 ```
 
 There are observations on 13 different variables, some categorical and some 
